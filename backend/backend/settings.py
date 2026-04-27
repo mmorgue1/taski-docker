@@ -9,6 +9,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', 'prayand.hopto.org', 'praktikatest.ru', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://prayand.hopto.org', 'https://praktikatest.ru']
 
 
 # Application definition
